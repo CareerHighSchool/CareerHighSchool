@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.first{
+    background-color:black;
+    opacity: 0.8;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(martin-adams-V75YEqJp4pE-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity:1.0;
+  font-size: 45px;
+  letter-spacing: 5px;
+  color:white;
+  font-style:italic;
+  font-family:serif;
+}
+
+.top-wrapper p {
+  opacity: 1;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  font-size:17px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+    opacity:1.0;
+}
+
+.signup {
+  background-color:crimson;
+}
+
+.line {
+  background-color:limegreen;
+  margin-right: 10px;
+}
+
+.fa-line{
+    padding-right:5px;
+}
+
+.btn {
+  padding: 9px 26px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+    height: 64px;
+    color:darkorange;
+    font-family:serif;
+}
+
+.header-left h1{
+    font-size:30px;
+    padding:0;
+    margin:0;
+}
+
+.header-left h2{
+    font-size: 11px;
+    padding:0;
+    margin: 0px 40px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 64px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.3s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* menu-iconのCSSを貼り付けてください */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  display:none;
+    opacity:0;
+}
+
+.lesson-center{
+    text-align:center;
+    height:600px;
+    padding:0 40px;
+}
+
+.lesson-center h1{
+     font-size:30px;
+    color:darkcyan;
+    border-bottom:1px solid darkcyan;
+    padding-bottom: 0;
+    
+}
+
+.task{
+   padding-right: 35px;
+  float: left;
+  width: 33%; 
+}
+
+.tasking {
+  padding: 15px 40px;
+  background-color:coral;
+  box-shadow: 0px 4px chocolate;
+  cursor: pointer;
+  }
+
+.tasking:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-wrapper h2{
+    border-bottom: 1px solid black;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  padding-right: 40px;
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon img{
+   width:100%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  margin:0 ;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
